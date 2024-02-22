@@ -1,0 +1,8 @@
+<Project>
+	<PropertyGroup>
+		<Authors>CreativeCoders</Authors>
+		<IsPackable>true</IsPackable>
+		<NoWarn>$(NoWarn);IDE0079</NoWarn>
+		<RepositoryUrl>https://github.com/CreativeCodersTeam/Core.Windows</RepositoryUrl>
+	</PropertyGroup>
+</Project>
