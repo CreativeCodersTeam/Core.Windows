@@ -15,7 +15,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\Core\CreativeCoders.Core\CreativeCoders.Core.csproj" />
 		<ProjectReference Include="..\CreativeCoders.Mvvm.Wpf\CreativeCoders.Mvvm.Wpf.csproj" />
 		<ProjectReference Include="..\CreativeCoders.Mvvm\CreativeCoders.Mvvm.csproj" />
 	</ItemGroup>

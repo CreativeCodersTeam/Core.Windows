@@ -10,8 +10,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\..\Core\CreativeCoders.Core\CreativeCoders.Core.csproj" />
-		<ProjectReference Include="..\CreativeCoders.Mvvm\CreativeCoders.Mvvm.csproj" />
+	  <ProjectReference Include="..\CreativeCoders.Mvvm\CreativeCoders.Mvvm.csproj" />
 	</ItemGroup>
 
 </Project>

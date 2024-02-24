@@ -11,9 +11,12 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<ProjectReference
-			Include="..\CreativeCoders.Mvvm.DialogServices.TaskDialog\CreativeCoders.Mvvm.DialogServices.TaskDialog.csproj" />
-		<ProjectReference Include="..\CreativeCoders.Mvvm.Wpf\CreativeCoders.Mvvm.Wpf.csproj" />
+	  <ProjectReference Include="..\CreativeCoders.Mvvm.DialogServices.TaskDialog\CreativeCoders.Mvvm.DialogServices.TaskDialog.csproj" />
+	  <ProjectReference Include="..\CreativeCoders.Mvvm.Wpf\CreativeCoders.Mvvm.Wpf.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CreativeCoders.Core" Version="3.2.0" />
 	</ItemGroup>
 
 </Project>

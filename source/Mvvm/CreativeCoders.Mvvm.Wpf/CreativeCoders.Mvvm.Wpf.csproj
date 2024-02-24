@@ -10,18 +10,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CreativeCoders.Core" Version="3.2.0" />
 		<PackageReference Include="JetBrains.Annotations" Version="2023.3.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-		<ProjectReference Include="..\..\Core\CreativeCoders.Core\CreativeCoders.Core.csproj" />
-		<ProjectReference Include="..\CreativeCoders.Mvvm\CreativeCoders.Mvvm.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<EmbeddedResource Include="ControlResources.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</EmbeddedResource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\CreativeCoders.Mvvm\CreativeCoders.Mvvm.csproj" />
 	</ItemGroup>
 
 </Project>
