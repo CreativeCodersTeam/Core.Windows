@@ -60,6 +60,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreativeCoders.Mvvm.UnitTes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreativeCoders.Mvvm.FileDialogService", "source\Mvvm\CreativeCoders.Mvvm.FileDialogService\CreativeCoders.Mvvm.FileDialogService.csproj", "{77838955-CE5E-4BA2-AC17-8FFFE38CD860}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{BC8429BA-47F0-4E57-89BB-2DCAD42C1357}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_build", "_build", "{1E335134-7209-45DC-9CEA-B0761CFC9F0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,8 +87,11 @@ Global
 		{528FDD36-361A-404F-839A-A82CEE0CB5A6} = {25BAD350-DA1C-47C5-89CF-0E9134C98F91}
 		{2CC5CA52-CF5A-417F-88F4-BFAD028B329B} = {D656E432-286A-461E-887F-9FF886D7AE04}
 		{77838955-CE5E-4BA2-AC17-8FFFE38CD860} = {BA11F7CD-589B-4D08-AF91-35F3987AF691}
+		{BC8429BA-47F0-4E57-89BB-2DCAD42C1357} = {1E335134-7209-45DC-9CEA-B0761CFC9F0B}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC8429BA-47F0-4E57-89BB-2DCAD42C1357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8429BA-47F0-4E57-89BB-2DCAD42C1357}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D0F84A7-AD8F-4645-896F-14F9D3128641}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D0F84A7-AD8F-4645-896F-14F9D3128641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D0F84A7-AD8F-4645-896F-14F9D3128641}.Release|Any CPU.ActiveCfg = Release|Any CPU
