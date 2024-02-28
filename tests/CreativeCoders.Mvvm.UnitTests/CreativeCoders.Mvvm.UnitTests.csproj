@@ -2,14 +2,11 @@
 
     <PropertyGroup>
         <OutputType>Library</OutputType>
-        <TargetFramework>net6.0-windows</TargetFramework>
         <UseWPF>true</UseWPF>
-        <Authors>CreativeCoders</Authors>
-        <IsPackable>false</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="CreativeCoders.UnitTests" Version="3.2.0" />
+        <PackageReference Include="CreativeCoders.UnitTests" Version="4.1.0" />
         <PackageReference Include="FakeItEasy" Version="8.1.0"/>
         <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
         <PackageReference Include="xunit" Version="2.7.0" />

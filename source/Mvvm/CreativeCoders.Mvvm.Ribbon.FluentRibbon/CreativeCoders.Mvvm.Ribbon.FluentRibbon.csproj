@@ -2,11 +2,8 @@
 
 	<PropertyGroup>
 		<OutputType>Library</OutputType>
-		<TargetFramework>net6.0-windows</TargetFramework>
-		<Authors>CreativeCoders</Authors>
 		<UseWPF>true</UseWPF>
 		<Description>FluentRibbon implementation for CreativeCoders.Mvvm.Ribbon</Description>
-		<RepositoryUrl>https://github.com/CreativeCodersTeam/Core</RepositoryUrl>
 	</PropertyGroup>
 
 	<ItemGroup>

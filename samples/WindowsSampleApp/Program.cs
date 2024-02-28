@@ -7,7 +7,7 @@ namespace WindowsSampleApp;
 
 public static class Program
 {
-    public static async Task Main()
+    public static void Main()
     {
         var win32Windows = new Win32Windows();
 
@@ -17,6 +17,5 @@ public static class Program
 
         Console.WriteLine("Press key to exit...");
         Console.ReadKey();
-
     }
 }
