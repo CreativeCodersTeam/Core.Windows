@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <UseWPF>true</UseWPF>
+        <Description>File dialog services for MVVM</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="13.0.1" />
+        <PackageReference Include="CreativeCoders.Core" Version="4.1.0" />
+    </ItemGroup>
+
+</Project>

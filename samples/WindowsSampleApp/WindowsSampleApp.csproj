@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\source\Windows\CreativeCoders.Windows\CreativeCoders.Windows.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="CreativeCoders.Core" Version="4.1.0" />
+	</ItemGroup>
+
+</Project>
